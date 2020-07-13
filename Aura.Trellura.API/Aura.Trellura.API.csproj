@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Aura.Trellura.Domain\Aura.Trellura.Domain.csproj" />
+    <ProjectReference Include="..\Aura.Trellura.Infra\Aura.Trellura.Infra.csproj" />
+  </ItemGroup>
+
 
 </Project>
